@@ -1,0 +1,15 @@
+let modebtn=document.querySelector('#class1');
+let modebtn2=document.querySelector('#class2');
+let currmode="blue";
+let curr2mode="red";
+
+modebtn.addEventListener("click", () =>{
+    document.body.style.backgroundColor="blue";
+
+    console.log(currmode);
+})
+
+modebtn2.addEventListener("click",()=>{
+    document.body.style.backgroundColor="red";
+    console.log(curr2mode);
+})
